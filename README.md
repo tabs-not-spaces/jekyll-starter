@@ -9,17 +9,16 @@ and [Alpine.js](https://github.com/alpinejs/alpine/).
 
 ## Getting Started
 
-You'll need [Ruby](https://www.ruby-lang.org/en/), [Bundler](https://bundler.io/),
-and [Node.js](https://nodejs.org/en/) installed. Then install build dependencies
-with
+Working from an assumption that you are building on a Windows device with WSL2 + Docker installed, everything you need to get started building your Jekyll site with Tailwind CSS is included in this template.
 
-    npm install
+- Click the "Open in Visual Studio Code" button in this readme. 
+- Select "Clone repo in container volume".
+- Follow the bouncing ball.
+- Once the container is built & the repo is cloned:
+    - open the command pallette (ctrl+shift+P), search for "Run Task".
+    - Run the included "Jekyll: Build Dev" task.
 
-_Tip_: Be sure to commit the generated `package-lock.json` and `Gemfile.lock` files.
-
-Then to build and serve the dev site, run
-
-    npm start
+You should now have everything built and running that you need to start working on your site 🚀
 
 ## What's Included
 
@@ -37,5 +36,4 @@ If you want to start creating posts and pages, we've included the
 
 ## Deploying
 
-Includes configuration for deploying to [Netlify](https://www.netlify.com/) and
-[GitHub Pages](https://pages.github.com/) (via GitHub Actions).
+Includes configuration for deploying to [GitHub Pages](https://pages.github.com/) (via GitHub Actions).
